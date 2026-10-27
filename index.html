@@ -1,26 +1,82 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="utf-8" />
-        <title>My Playground</title>
+        <title>Библиотека КЭК</title>
         <link rel="stylesheet" href="styles.css" />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background: #f5f5f5;
+            }
+            .container {
+                max-width: 700px;
+                margin: 0 auto;      /* центрирование блока по горизонтали */
+                background: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                text-align: center;  /* текст по центру */
+            }
+            table {
+                margin: 0 auto;      /* таблица по центру */
+                border-collapse: collapse;
+                width: 100%;
+                max-width: 600px;
+            }
+            td, th {
+                border: 1px solid #ccc;
+                padding: 8px 12px;
+                text-align: center;
+            }
+            h2, h3 {
+                margin-top: 0;
+            }
+        </style>
     </head>
     <body>
-        <head>
-            <h2>Библиотека казанского энергетического колледжа</h2>
-        </head>
-        <h3>Книги библиотеки</h3>
-        <div>
-            <p>Для того, чтобы заказать книгу, напишите на почту библиотеки <b>library-kek@mail.ru</b>.</p>
-            <p>Правила написания на почту:
-            </p>
-            <p>
-                Если вы студент, в теме писать ФИО, номер группы, фамилию классного руководителя.
-            </p>
-            <p>
-                Если вы сотрудник, в теме письма писать ФИО, должность.
-            </p>
-        </div>
+        <main class="container">
+            <header>
+                <h2>Библиотека Казанского энергетического колледжа</h2>
+            </header>
+
+            <h3>Книги библиотеки</h3>
+
+            <div>
+                <p>Для того, чтобы заказать книгу, напишите на почту библиотеки <b>library-kek@mail.ru</b>.</p>
+                <p>Правила написания на почту:</p>
+                <p>Если вы студент, в теме писать ФИО, номер группы, фамилию классного руководителя.</p>
+                <p>Если вы сотрудник, в теме письма писать ФИО, должность.</p>
+            </div>
+
+            <div>
+                <p><b>Математика</b></p>
+                <table>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Автор</th>
+                        <th>Издание</th>
+                    </tr>
+                    <tr>
+                        <td>Nexus 6P</td>
+                        <td>Huawei</td>
+                        <td>49000</td>
+                    </tr>
+                    <tr>
+                        <td>iPhone 6S Plus</td>
+                        <td>Apple</td>
+                        <td>62000</td>
+                    </tr>
+                    <tr>
+                        <td>Lumia 950 XL</td>
+                        <td>Microsoft</td>
+                        <td>35000</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
     </body>
 </html>
 
